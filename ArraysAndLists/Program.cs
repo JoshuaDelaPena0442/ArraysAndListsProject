@@ -53,7 +53,7 @@ namespace ArraysAndLists
             /* Using a for loop,
              * display the numbers in your "odds" list
              */
-            for (var i = 0; 1 <= odds.Count - 1; i++)
+            for (var i = 0; i <= odds.Count - 1; i++)
             {
                 Console.WriteLine(odds[i]);
             }
